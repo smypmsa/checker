@@ -16,8 +16,8 @@ The script automates checking wallet addresses against the Pengu airdrop API usi
 
 Clone and set up the project:
 ```bash
-git clone https://github.com/yourusername/pengu-checker
-cd pengu-checker
+git clone https://github.com/smypmsa/checker
+cd checker
 python -m venv venv
 
 # Windows
@@ -49,7 +49,7 @@ proxy_list = [
 
 Run the script:
 ```bash
-python checker.py
+python main.py
 ```
 
 Results are saved to `results.csv` with columns: wallet_address, total, total_unclaimed. The script automatically skips previously processed wallets if `results.csv` exists.
